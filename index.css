@@ -697,6 +697,15 @@ img{
     .box1,
     .box2{
         width:95%;
+    
+    }
+    .box1 p,
+    .box2 p,
+    .box1 h1,
+    .box2 h1,
+    .box1 button,
+    .box2 button{
+        transform: translateX(-25px);
     }
 
     .box5 img,
@@ -735,7 +744,7 @@ img{
         margin-left:20px;
     }
     .h1{
-    margin-left: 240px;    
+    margin-left: 50%;
     }
 
 }
