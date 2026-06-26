@@ -655,7 +655,14 @@ img{
         object-fit:cover;
     }
 
-    .h1,
+    .h1{
+        font-size:28px;
+        left:47%;
+        transform:translateX(-50%);
+        width:100%;
+
+    }
+
     .image2 h1{
         font-size:28px;
         left:50%;
@@ -683,6 +690,9 @@ img{
         flex-direction:column;
         align-items:center;
     }
+    .icons2 button {
+        margin-top: 80px;
+    }
 
     .box1,
     .box2{
@@ -693,7 +703,7 @@ img{
     .box6 img{
         width:95vw;
         height:250px;
-        margin-left:0;
+        margin-left:6px;
     }
    .box5,.box6{
     position: relative;
@@ -727,6 +737,7 @@ img{
     .h1{
     margin-left: 240px;    
     }
+
 }
 
 /*
